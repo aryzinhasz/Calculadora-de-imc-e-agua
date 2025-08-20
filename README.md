@@ -1,18 +1,13 @@
 # calculadora-de-imc-e-agua
-DESCRIÇÃO:
-A "Calculadora IMC" é uma aplicação que permite calcular o Índice de Massa Corporal (IMC) com base no peso e altura fornecidos. Abaixo estão os principais recursos implementados:
+A "Calculadora IMC" é uma aplicação que permite calcular o Índice de Massa Corporal (IMC) com base no peso e altura fornecidos.
 
 Calcular IMC:
+Ao clicar no botão "CALCULAR", o sistema calcula o IMC com base no peso (em quilogramas) e altura (em centímetros) inseridos.
 
-Ao clicar no botão "CALCULAR", o sistema calcula o IMC com base no peso (em quilogramas) e altura (em metros) inseridos.
-O resultado do IMC é exibido abaixo do botão de cálculo.
 Avaliar Situação:
-
 Com base no IMC calculado, a aplicação fornece uma avaliação da situação do usuário em relação ao seu peso, indicando se está abaixo do peso, dentro da faixa normal, com sobrepeso ou em diferentes graus de obesidade.
 
 Abaixo está a tabela que descreve os intervalos de IMC e suas respectivas situações:
-
-Intervalo de IMC	Situação
 Menor que 18.5	Abaixo do peso
 18.5 - 24.9	Peso normal
 25.0 - 29.9	Sobrepeso
@@ -20,20 +15,25 @@ Menor que 18.5	Abaixo do peso
 35.0 - 39.9	Obesidade grau II
 Maior ou igual a 40	Obesidade grau III
 Essa tabela fornece uma orientação sobre a interpretação do IMC e a respectiva situação de saúde associada a cada faixa de valor.
-Limpar Campos:
 
+Limpar Campos:
 Ao clicar no botão "LIMPAR", todos os campos de entrada são resetados, incluindo o peso, altura e o resultado do cálculo do IMC.
-EXECUTANDO O PROJETO:
-Informar Peso e Altura:
 
-Insira o seu peso em quilogramas no campo "PESO".
-Insira a sua altura em metros no campo "ALTURA".
-Calcular IMC:
+--------------------------------------------------------------------------------------------------------
+A "Calculadora de Água Diária" é uma aplicação que permite calcular a quantidade de água necessária diariamente com base no peso fornecido.
 
-Após inserir o peso e altura, clique no botão "CALCULAR" para calcular o seu IMC.
-Avaliar Situação:
+Calcular quantidade de água:
+Ao clicar no botão "CALCULAR", o sistema calcula automaticamente a quantidade recomendada de água com base no peso (em quilogramas) inserido pelo usuário.
 
-O sistema fornecerá uma avaliação da sua situação com base no IMC calculado.
+A fórmula utilizada para o cálculo é:
+35 ml de água por quilo de peso corporal.
+
+Exemplo:
+Uma pessoa com 70 kg deve consumir aproximadamente:
+70 × 35 = 2450 ml = 2,45 litros por dia
+
+Avaliação do resultado:
+Após o cálculo, a aplicação exibe a quantidade de litros de água recomendada por dia, de forma clara e objetiva.
+
 Limpar Campos:
-
-Se desejar limpar os campos e o resultado do cálculo, clique no botão "LIMPAR". Isso restaurará os campos para seus valores padrão e limpará o resultado do cálculo do IMC.
+Ao atualizar a página (F5 ou recarregar), todos os campos de entrada são redefinidos, permitindo um novo cálculo limpo.
